@@ -1,10 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [git命令](gitcommond.md)
-* [第一章](section1/README.md)
-    * [第一节](section1/example1.md)
-    * [第二节](section1/example2.md)
-* [第二章](section2/README.md)
-    * [第一节](section2/example1.md)
+* [git常用命令](gitcommond.md)
+
+## gitbook
+
+* [gitbook安装](gitbook/gitbookan-zhuang.md)
+* [gitbook editor 安装](gitboo-editor-an-zhuang.md)
+* [gitbook发布的git page](gitbookfa-bu-de-git-page.md)
 
