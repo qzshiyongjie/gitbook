@@ -2,11 +2,11 @@
 
 **1、git基本命令**
 
-**`git add `** 将想要快照的内容写入缓存区
+`git add` 将想要快照的内容写入缓存区
 
-`git status -s `"AM" 状态的意思是，这个文件在我们将它添加到缓存之后又有改动  
-`git commit -m `'第一次版本提交' -m选项添加备注信息  
-4）git clone url 使用 git clone 拷贝一个 Git 仓库到本地  
+`git status -s`"AM" 状态的意思是，这个文件在我们将它添加到缓存之后又有改动  
+`git commit -m`'第一次版本提交' -m选项添加备注信息  
+` git clone url ` 使用 git clone 拷贝一个 Git 仓库到本地  
 5）git diff 查看执行 git status 的结果的详细信息  
 　　尚未缓存的改动：git diff  
 　　查看已缓存的改动： git diff --cached  
