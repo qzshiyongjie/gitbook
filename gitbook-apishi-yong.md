@@ -40,4 +40,10 @@ This text will only appear for Go.
 This will appear for both JavaScript and Go.
 {% endmethod %}
 ```
+
+* 以 ` {% method %} ` 作为开始，` {% endmethod %} ` 作为结束。
+ ` {% sample lang="request" %} ` 为页签 request 显示内容
+ ` {% sample lang="response" %} ` 为页签 response 显示内容
+ ` {% common %} ` 为两个页签共同显示内容
+
 > https://github.com/GitbookIO/theme-api
