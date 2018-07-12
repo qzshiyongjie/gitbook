@@ -26,5 +26,5 @@ code
 ```
 
 {% common %}
-接口联系人
+接口负责团队
 {% endmethod %}
