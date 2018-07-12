@@ -6,7 +6,7 @@
 	"theme": "dark",
       "languages": [
         {
-          "lang": "requset",
+          "lang": "request",
           "name": "请求参数",
           "default": true
         },
