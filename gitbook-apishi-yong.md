@@ -1,7 +1,7 @@
 {% method %}
 ## Simple method
 
-{% sample lang="request" %}
+{% sample lang="requset" %}
 This text will only appear for request.
 
 {% sample lang="response" %}
