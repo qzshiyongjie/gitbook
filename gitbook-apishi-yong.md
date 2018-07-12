@@ -26,5 +26,5 @@ code
 ```
 
 {% common %}
-This will appear for both JavaScript and Go.
+接口联系人
 {% endmethod %}
