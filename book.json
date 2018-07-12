@@ -1,9 +1,18 @@
-
 {
-    "plugins": ["theme-api"],
-    "pluginsConfig": {
-        "theme-api": {
-            "theme": "dark"
+  "plugins": ["theme-api"],
+  "pluginsConfig": {
+    "theme-api": {
+      "languages": [
+        {
+          "lang": "requset",
+          "name": "请求参数",
+          "default": true
+        },
+        {
+          "lang": "response",
+          "name": "返回结果"
         }
+      ]
     }
+  }
 }
