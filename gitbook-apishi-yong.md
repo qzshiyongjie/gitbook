@@ -1,8 +1,9 @@
 # 新建book.json
+
 ```
 vim book.json
 ```
-#在book.json中添加使用插件的代码
+# 在book.json中添加使用插件的代码
 ```
 {
   "plugins": ["theme-api"],
@@ -24,5 +25,21 @@ vim book.json
   }
 }
 ```
+# 页面中使用api主题
+```
+{% method %}
+## Simple method
+
+{% sample lang="request" %}
+This text will only appear for JavaScript.
+
+{% sample lang="response" %}
+This text will only appear for Go.
+
+{% common %}
+This will appear for both JavaScript and Go.
+{% endmethod %}
+```
+以 ` {% method %} ` 作为开始，` {% endmethod %} ` 作为结束。
 
 > https://github.com/GitbookIO/theme-api
