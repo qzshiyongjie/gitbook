@@ -46,4 +46,5 @@ This will appear for both JavaScript and Go.
  ` {% sample lang="response" %} ` 为页签 response 显示内容；
  ` {% common %} ` 为两个页签共同显示内容。
 
+详情参看 api-demo中的mackdown源代码
 > https://github.com/GitbookIO/theme-api
