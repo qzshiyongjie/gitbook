@@ -25,6 +25,8 @@ vim book.json
   }
 }
 ```
+# 安装 gitbook-api 模块
+` npm install gitbook-api ` 
 # 页面中使用api主题
 ```
 {% method %}
