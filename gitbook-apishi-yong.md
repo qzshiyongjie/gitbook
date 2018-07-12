@@ -1,15 +1,12 @@
 {% method %}
-## Install {#install}
+## Simple method
 
-The first thing is to get the GitBook API client.
+{% sample lang="js" %}
+This text will only appear for JavaScript.
 
-{% sample lang="request" %}
-```bash
-$ npm install gitbook-api
-```
+{% sample lang="go" %}
+This text will only appear for Go.
 
-{% sample lang="response" %}
-```bash
-$ go get github.com/GitbookIO/go-gitbook-api
-```
+{% common %}
+This will appear for both JavaScript and Go.
 {% endmethod %}
