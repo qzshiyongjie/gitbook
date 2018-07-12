@@ -1,32 +1,28 @@
-{% method %}
-## 接口名称:
-* 接口描述：
-{% sample lang="request" %}
-* 请求方式:
-* 请求地址:
-* 参数列表：
-
-| 参数名 | 参数类型 | 是否必填 | 备注 |
-| --- | --- | --- | --- |
-| 参数名 | 参数类型 | 是否必填 | 备注 |
-
-{% sample lang="response" %}
-* 结果参数列表：
-
-| 参数名 | 参数类型 | 备注 |
-| --- | --- | --- |
-| 参数名 | 参数类型 | 备注 |
-* 结果事例
-成功 
+# 新建book.json
 ```
-code
+vim book.json
 ```
-失败
+#在book.json中添加使用插件的代码
 ```
-code
+{
+  "plugins": ["theme-api"],
+  "pluginsConfig": {
+    "theme-api": {
+        "split": true,
+      "languages": [
+        {
+          "lang": "request",
+          "name": "请求参数",
+          "default": true
+        },
+        {
+          "lang": "response",
+          "name": "返回结果"
+        }
+      ]
+    }
+  }
+}
 ```
-{% common %}
-详情请联系：* EMAIL *
-{% endmethod %}
 
-------
+> https://github.com/GitbookIO/theme-api
