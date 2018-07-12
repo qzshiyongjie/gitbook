@@ -1,12 +1,15 @@
 {% method %}
-## Simple method
+## Install {#install}
 
-{% sample lang="requset" %}
-This text will only appear for request.
+The first thing is to get the GitBook API client.
 
-{% sample lang="response" %}
-This text will only appear for response.
+{% sample lang="js" %}
+```bash
+$ npm install gitbook-api
+```
 
-{% common %}
-This will appear for both JavaScript and Go.
+{% sample lang="go" %}
+```bash
+$ go get github.com/GitbookIO/go-gitbook-api
+```
 {% endmethod %}
