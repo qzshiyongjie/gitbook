@@ -3,12 +3,12 @@
 
 The first thing is to get the GitBook API client.
 
-{% sample lang="js" %}
+{% sample lang="request" %}
 ```bash
 $ npm install gitbook-api
 ```
 
-{% sample lang="go" %}
+{% sample lang="resopnse" %}
 ```bash
 $ go get github.com/GitbookIO/go-gitbook-api
 ```
