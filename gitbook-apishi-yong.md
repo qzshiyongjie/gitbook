@@ -1,6 +1,6 @@
 {% method %}
 ## 接口名称:
-接口描述：
+* 接口描述：
 {% sample lang="request" %}
 * 请求方式:
 * 请求地址:
@@ -25,6 +25,8 @@ code
 ```
 code
 ```
+{% common %}
+详情请联系：* EMAIL *
 {% endmethod %}
 
 ------
