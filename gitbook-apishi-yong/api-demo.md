@@ -51,13 +51,11 @@ code
     | --- | --- | --- |
     | 参数名 | 参数类型 | 备注 |
     * 结果事例
-    成功
+    成功  
         code   
-        
     失败
-         code
- 
-    {% common %}
+        code
+     {% common %}
     详情请联系：* EMAIL *
     {% endmethod %}
 ```
