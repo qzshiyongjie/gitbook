@@ -1,10 +1,10 @@
 {% method %}
 ## Simple method
 
-{% sample lang="js" %}
+{% sample lang="request" %}
 This text will only appear for JavaScript.
 
-{% sample lang="go" %}
+{% sample lang="response" %}
 This text will only appear for Go.
 
 {% common %}
