@@ -1,8 +1,8 @@
 {% method %}
-## Simple method
-
+## 接口名称:
 {% sample lang="request" %}
-This text will only appear for JavaScript.
+请求方式:
+请求地址:
 
 {% sample lang="response" %}
 This text will only appear for Go.
