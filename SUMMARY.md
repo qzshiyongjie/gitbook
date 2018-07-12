@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [git常用命令](gitcommond.md)
+* gitbook-api使用
 
 ## gitbook
 
