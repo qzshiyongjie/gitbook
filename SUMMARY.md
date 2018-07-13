@@ -5,10 +5,9 @@
 * [mackdown常用命令](mackdownchang-yong-ming-ling.md)
 
 ## gitbook
-
 * [gitbook安装](gitbook/gitbookan-zhuang.md)
 * [gitbook editor 安装](gitboo-editor-an-zhuang.md)
 * [gitbook发布的git page](gitbookfa-bu-de-git-page.md)
 * [gitbook-api使用](gitbook-apishi-yong.md)
-  * [api-demo](gitbook-apishi-yong/api-demo.md)
+    * [api-demo](gitbook-apishi-yong/api-demo.md)
 
