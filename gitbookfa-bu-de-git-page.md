@@ -48,6 +48,15 @@ git add .
 git commit -m '修改内容'
 git push
 ```
-## 
+## 更新_book文件内容到github page
+```
+git checkout master
+gitbook build
+git checkout gh-pages
+cp -r _book/* .
+git add .
+git commit -m "修改内容"
+git push
+```
 
 > http://www.chengweiyang.cn/gitbook/github-pages/README.html
