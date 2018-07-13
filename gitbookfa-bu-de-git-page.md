@@ -36,7 +36,18 @@ $ git commit -m "Publish book"
 $ git push -u origin gh-pages
 ```
 ## 关联gitbook editor
-将Repositorie复制到gitbook editor目录底下，我的地址为 `/Users/niuniu/GitBook/Library/Import `
-打开gitbook editor，此时
+1 将Repositorie复制到gitbook editor目录底下，我的地址为 `/Users/niuniu/GitBook/Library/Import `
+2 打开gitbook editor，此时gitbook editor底下已有 book ，直接打开，我尝试过登入，一直登入失败。
+3 点击右上角导航栏，点击 Book ,点击 Repository Settings ，复制主干的git地址，这样就可以直接用gitbook editor编辑了
+4 编写完直接点击左上角同步就行了
+## book编辑后把重新发布到github page
+未使用gitbook editor 提交编辑的md文件到主干，使用时可以使用gitbook editor直接同步
+```
+git checkout master
+git add .
+git commit -m '修改内容'
+git push
+```
+
 
 > http://www.chengweiyang.cn/gitbook/github-pages/README.html
