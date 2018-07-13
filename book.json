@@ -12,11 +12,12 @@
         {
           "lang": "response",
           "name": "返回结果"
-        },
-        "disqus": {
-            "shortName": "disqus_MoueZK4jqb"
         }
+
       ]
+    },
+    "disqus": {
+        "shortName": "disqus_MoueZK4jqb"
     }
   }
 }
