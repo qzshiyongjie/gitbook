@@ -1,5 +1,5 @@
 {
-  "plugins": ["theme-api","comscore"],
+  "plugins": ["theme-api","toggle-chapters"],
   "pluginsConfig": {
     "theme-api": {
 	"split": true,
