@@ -1,5 +1,5 @@
 {
-  "plugins": ["theme-api","toggle-chapters"],
+  "plugins": ["theme-api","toggle-chapters","disqus"],
   "pluginsConfig": {
     "theme-api": {
 	"split": true,
@@ -12,6 +12,9 @@
         {
           "lang": "response",
           "name": "返回结果"
+        },
+        "disqus": {
+            "shortName": "disqus_MoueZK4jqb"
         }
       ]
     }
