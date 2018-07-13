@@ -15,7 +15,7 @@ node_modules
 9 执行 `git commit -m "创建gitbook"`
 10 执行 `git push`
 ### 将gitbook的 _book文件夹内容发布到分支
-#### 创建 gh-pages 分支
+创建 gh-pages 分支
 ```
 $ git checkout --orphan gh-pages
 $ git rm --cached -r .
@@ -35,5 +35,8 @@ $ git add .
 $ git commit -m "Publish book"
 $ git push -u origin gh-pages
 ```
+## 关联gitbook editor
+将Repositorie复制到gitbook editor目录底下，我的地址为 `/Users/niuniu/GitBook/Library/Import `
+打开gitbook editor，此时
 
 > http://www.chengweiyang.cn/gitbook/github-pages/README.html
