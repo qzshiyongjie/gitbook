@@ -10,4 +10,6 @@
 * [gitbook发布的git page](gitbookfa-bu-de-git-page.md)
 * [gitbook-api使用](gitbook-apishi-yong.md)
     * [api-demo](gitbook-apishi-yong/api-demo.md)
+## zookeeper
+* [zookeeper概念](zookeeper/gainai.md)
 
